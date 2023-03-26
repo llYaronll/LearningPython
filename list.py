@@ -58,3 +58,6 @@ print(friends.index("他"))
 
 # 10、在列表內有幾個和找的值一樣.count
 print(friends.count("她"))
+
+# 11、列表長度資料量len(列表變數)
+print(len(friends))
