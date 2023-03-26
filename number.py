@@ -1,5 +1,8 @@
 #如何使用數字、數字的用法
 
+#更多數字函式
+from math import *
+
 #正數、負數、小數點
 print(10)
 print(-10)
@@ -29,7 +32,25 @@ print(abs(number))
 # 3、次方pow() ; 5^2
 print(pow(number,2))
 
-# 4、max()
+# 4、找到數字最大max()
+print(max(number,10,20,100))
+
+# 5、找到數字最小min()
+print(min(number,10,20,100))
+
+# 6、四捨五入round()
+print(round(3.14159))
+
+# 7、無條件捨去floor()
+print(floor(7.687))
+
+# 8、無條件進位ceil()
+print(ceil(8.1478))
+
+# 9、開根號sqrt();√
+print(sqrt(36))
+
+
 
 
 
